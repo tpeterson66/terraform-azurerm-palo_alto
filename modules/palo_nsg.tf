@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    azurecaf = {
+      source = "tpeterson66/palo_alto"
+    }
+  }
+
+}
+
 resource "azurerm_resource_group" "example" {
   name     = "example-resources"
   location = "West Europe"
