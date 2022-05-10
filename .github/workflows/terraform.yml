@@ -63,7 +63,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: "./modules/network_security_group/.test"
+        working-directory: "modules/network_security_group/.test"
 
     steps:
     # Checkout the repository to the GitHub Actions runner
