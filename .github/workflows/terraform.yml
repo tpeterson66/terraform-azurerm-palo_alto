@@ -54,7 +54,7 @@ permissions:
   contents: read
 
 jobs:
-  terraform:
+  networksecuritygroup:
     name: 'network_security_group'
     runs-on: ubuntu-latest
     environment: production
@@ -108,7 +108,7 @@ jobs:
     # - name: Terraform Apply
     #   if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     #   run: terraform apply -auto-approve -input=false
-  terraform:
+  routetable:
     name: 'route_table'
     runs-on: ubuntu-latest
     environment: production
